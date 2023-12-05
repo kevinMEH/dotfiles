@@ -10,14 +10,14 @@ module.exports = {
         // default font size in pixels for all tabs
         fontSize: 15,
         // font family with optional fallbacks
-        fontFamily: '"Cartograph CF", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
-        uiFontFamily: '"Cartograph CF", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+        fontFamily: '"Cascadia Code", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+        uiFontFamily: '"Cascadia Code", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
         // default font weight: 'normal' or 'bold'
         fontWeight: 400,
         // font weight for bold characters: 'normal' or 'bold'
         fontWeightBold: 700,
         // line height as a relative unit
-        lineHeight: 1,
+        lineHeight: 1.3,
         // letter spacing as a relative unit
         letterSpacing: 0,
         // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
@@ -51,7 +51,7 @@ module.exports = {
         // default: `true` (without backticks and without quotes) on Windows and Linux, ignored on macOS
         showWindowControls: '',
         // custom padding (CSS format, i.e.: `top right bottom left`)
-        padding: '12px 14px',
+        padding: '10px 14px',
         // the full list. if you're going to provide the full color palette,
         // including the 6 x 6 color cubes and the grayscale map, just provide
         // an array here instead of a color map object
@@ -99,11 +99,11 @@ module.exports = {
         shellArgs: ['--login'],
         // for environment variables
         env: {},
-	windowSize: [720, 500],
+	windowSize: [840, 500],
         // Supported Options:
         //  1. 'SOUND' -> Enables the bell as a sound
         //  2. false: turns off the bell
-        bell: 'SOUND',
+        bell: false,
         // An absolute file path to a sound file on the machine.
         // bellSoundURL: '/path/to/sound/file',
         // if `true` (without backticks and without quotes), selected text will automatically be copied to the clipboard
@@ -139,7 +139,7 @@ module.exports = {
     //   `hyperpower`
     //   `@company/project`
     //   `project#1.0.1`
-    plugins: ["hyper-quit", "hyperterm-gruvbox-dark"],
+    plugins: ["hyper-quit", "hyper-everforest"],
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
     // to load it and avoid it being `npm install`ed
