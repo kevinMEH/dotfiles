@@ -1,0 +1,14 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "Sanctum",
+  "textFontFamily": "Cartograph CF,Cascadia Code",
+  "monospaceFontFamily": "Cartograph CF",
+  "interfaceFontFamily": "Cartograph CF",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "style"
+  ],
+  "baseFontSize": 14,
+  "accentColor": "#76db8a",
+  "showViewHeader": false
+}

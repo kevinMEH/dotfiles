@@ -1,0 +1,37 @@
+.theme-dark {
+    --background: #293136 !important;
+    --h1-color: rgb(var(--gray-20)) !important;
+    --h2-color: rgb(var(--gray-20)) !important;
+    --h3-color: rgb(var(--gray-20)) !important;
+    --h4-color: rgb(var(--gray-20)) !important;
+    --h5-color: rgb(var(--gray-20)) !important;
+    --h6-color: rgb(var(--gray-20)) !important;
+    --text-primary: rgb(var(--gray-30)) !important;
+    --text-secondary: rgb(var(--gray-50)) !important;
+    --border-subtle-0: rgb(var(--gray-70)) !important;
+    --border-subtle-1: rgb(var(--gray-70)) !important;
+}
+
+.theme-light {
+    --background: #f3ead3 !important;
+    --h1-color: rgb(var(--gray-100)) !important;
+    --h2-color: rgb(var(--gray-100)) !important;
+    --h3-color: rgb(var(--gray-100)) !important;
+    --h4-color: rgb(var(--gray-100)) !important;
+    --h5-color: rgb(var(--gray-100)) !important;
+    --h6-color: rgb(var(--gray-100)) !important;
+    --text-primary: rgb(var(--gray-90)) !important;
+}
+
+body {
+    font-feature-settings: normal !important;
+}
+
+.theme-dark .workspace-leaf-content img:not(:hover) {
+    opacity: 100% !important;
+    transition: unset !important;
+}
+.theme-dark .markdown-rendered img:hover,
+.theme-dark .workspace-leaf-content img:hover {
+    transition: unset !important;
+}

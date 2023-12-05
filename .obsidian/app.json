@@ -1,0 +1,31 @@
+{
+  "tabSize": 4,
+  "vimMode": true,
+  "autoPairBrackets": false,
+  "lineWrap": true,
+  "newFileLocation": "current",
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "promptDelete": false,
+  "showFrontmatter": false,
+  "foldIndent": false,
+  "showLineNumber": false,
+  "rightToLeft": false,
+  "spellcheck": false,
+  "autoPairMarkdown": false,
+  "fileSortOrder": "alphabeticalReverse",
+  "attachmentFolderPath": "./Images",
+  "foldHeading": false,
+  "showIndentGuide": false,
+  "livePreview": true,
+  "defaultViewMode": "source",
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": false,
+  "trashOption": "system",
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}
