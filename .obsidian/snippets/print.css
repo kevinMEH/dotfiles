@@ -1,0 +1,11 @@
+@media print {
+    
+    i, em {
+        font-style: normal;
+    }
+    
+    i::before, i::after, em::before, em::after {
+        content: "*";
+    }
+    
+}
