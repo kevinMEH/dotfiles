@@ -6,7 +6,8 @@
   "interfaceFontFamily": "Cartograph CF",
   "translucency": false,
   "enabledCssSnippets": [
-    "style"
+    "style",
+    "print"
   ],
   "baseFontSize": 14,
   "accentColor": "#76db8a",
