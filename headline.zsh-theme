@@ -137,7 +137,7 @@ HEADLINE_STYLE_CLOCK=$faint
 HEADLINE_CLOCK_FORMAT='%l:%M:%S %p' # consider "%+" for full date (see man strftime)
 
 # Exit code
-HEADLINE_DO_ERR=false # whether to show non-zero exit codes above prompt
+HEADLINE_DO_ERR=true # whether to show non-zero exit codes above prompt
 HEADLINE_DO_ERR_INFO=true # whether to show exit code meaning as well
 HEADLINE_ERR_PREFIX=''
 HEADLINE_STYLE_ERR=$italic$faint
@@ -290,7 +290,9 @@ headline_precmd() {
       _headline_part JOINT "$HEADLINE_PAD_TO_BRANCH" right
     fi
     _headline_part JOINT "$HEADLINE_PATH_TO_PAD" left
-    _headline_part JOINT " $(headline_repeat_char $cyan$HEADLINE_PAD_CHAR $((_HEADLINE_LEN_REMAIN - 1)))$reset" left
+    if (( $_HEADLINE_LEN_REMAIN > 0 )); then
+      _headline_part JOINT " $(headline_repeat_char $cyan$HEADLINE_PAD_CHAR $((_HEADLINE_LEN_REMAIN - 1)))$reset" left
+    fi
   fi
 
   # Error line
