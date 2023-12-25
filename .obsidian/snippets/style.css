@@ -25,6 +25,7 @@
 
 body {
     font-feature-settings: normal !important;
+    --file-line-width: 50rem;
 }
 
 .theme-dark .workspace-leaf-content img:not(:hover) {
