@@ -35,3 +35,10 @@ body {
 .theme-dark .workspace-leaf-content img:hover {
     transition: unset !important;
 }
+
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-codeblock-begin {
+    margin: 10px 0px 0px 0px !important;
+}
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-codeblock-end {
+    margin: 0px 0px 10px 0px !important;
+}
