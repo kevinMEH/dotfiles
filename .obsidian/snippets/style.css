@@ -28,6 +28,11 @@ body {
     --file-line-width: 50rem;
 }
 
+.HyperMD-header {
+    padding-bottom: 4px !important;
+    line-height: var(--line-height-normal) !important;
+}
+
 .theme-dark .workspace-leaf-content img:not(:hover) {
     opacity: 100% !important;
     transition: unset !important;
