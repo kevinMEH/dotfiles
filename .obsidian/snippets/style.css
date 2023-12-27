@@ -72,3 +72,8 @@ body {
         opacity: 0;
     }
 }
+
+.image-embed {
+    display: flex;
+    justify-content: space-around;
+}
