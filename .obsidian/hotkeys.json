@@ -83,12 +83,20 @@
     "app:open-vault": [
       {
         "modifiers": [
-        "Mod",
-        "Shift"
+          "Mod",
+          "Shift"
         ],
         "key": "N"
       }
     ],
     "file-explorer:new-file": [],
-    "editor:toggle-checklist-status": []
+    "editor:toggle-checklist-status": [],
+    "workspace:split-horizontal": [
+      {
+        "modifiers": [
+          "Mod"
+        ],
+        "key": "\\"
+      }
+    ]
   }
